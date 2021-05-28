@@ -25,6 +25,8 @@ public class AllTheLinksInPage {
 	public void getAllTheLinks() {
 
 		try {
+			
+			//comment is added
 
 			List<WebElement> links = driver.findElements(By.tagName("a"));
 
